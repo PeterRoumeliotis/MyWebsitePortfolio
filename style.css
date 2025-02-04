@@ -69,6 +69,35 @@
     margin-top: 20px;
   }
   
+  .hero-section {
+    display: flex; /* Enables flexbox for alignment */
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .hero-content {
+    flex: 1; /* Take up half the width */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack text vertically */
+    justify-content: center; /* Center vertically */
+    align-items: flex-start; /* Align content to the left */
+    padding: 20px; /* Add some spacing */
+    font-size: large;
+  }
+  
+  .hero-image {
+    flex: 1; /* Take up the other half of the screen */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+  }
+  
+  .hero-image img {
+    max-width: 80%; /* Adjust the image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+  }
+  
+
   /* About Me */
   #about .section-content {
     display: flex;
